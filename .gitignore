@@ -1,24 +1,33 @@
 # Python
 *.pyc
+__pycache__/
 *.pyo
 *.pyd
-*.swp
-*.swo
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+.env
+
+# IDEs
+.idea/
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# macOS
+.DS_Store
 
 # Logs
 *.log
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-.coverage
-htmlcov/
-.coverage.*
-
-# Mypy
-.mypy_cache/
-
-# Black / isort
-.black/
