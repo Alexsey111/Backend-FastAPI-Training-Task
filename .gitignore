@@ -1,0 +1,24 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# Mypy
+.mypy_cache/
+
+# Black / isort
+.black/
